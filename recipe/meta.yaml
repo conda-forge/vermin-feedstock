@@ -1,13 +1,13 @@
 {% set name = "vermin" %}
-{% set version = "1.8.0" %}
+{% set version = "1.9.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/vermin-{{ version }}.tar.gz
-  sha256: 3621955ac2a2950175c5b4a9b2fc3bd24bd416da0388893c9eb6971264e4ca1f
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/vermin-{{ version }}.tar.gz
+  sha256: 15abe48e5e8b228fb8694a28e7f31bb3cf6d38e7c40627c17708ce9fd8d42dc0
 
 build:
   entry_points:
